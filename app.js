@@ -43,9 +43,7 @@ app.use(session(sessionOptions));
 //     saveUninitialized: false,
 // };
 
-app.use(
-    session(sessionOptions)
-);
+
 
 
 app.use(express.json());
