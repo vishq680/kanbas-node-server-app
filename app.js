@@ -16,6 +16,9 @@ mongoose.connect(CONNECTION_STRING);
 
 
 const app = express()
+
+const cors = require('cors');
+
 app.use(
     cors({
         credentials: true,
@@ -23,6 +26,7 @@ app.use(
     })
 
 );
+
 const sessionOptions = {
     secret: "any string",
     resave: false,
