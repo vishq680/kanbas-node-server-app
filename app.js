@@ -17,7 +17,7 @@ mongoose.connect(CONNECTION_STRING);
 
 const app = express()
 
-var cors = require('cors');
+// var cors = require('cors');
 const corsOptions = {
     origin: '*',
     credentials: true,
